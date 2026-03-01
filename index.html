@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Retrô - Videoteca</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="tv-container">
+        <!-- TV Frame -->
+        <div class="tv-frame">
+            <!-- Tela da TV -->
+            <div class="tv-screen">
+                <div id="video-container">
+                    <div id="player"></div>
+                    <div class="static-overlay"></div>
+                </div>
+            </div>
+            
+            <!-- Controles da TV -->
+            <div class="tv-controls">
+                <!-- Botões principais -->
+                <div class="control-buttons">
+                    <button id="prev-channel" class="control-btn" title="Canal Anterior">
+                        <span class="btn-label">CH-</span>
+                    </button>
+                    <button id="play-pause" class="control-btn" title="Play/Pause">
+                        <span class="btn-label">▶️</span>
+                    </button>
+                    <button id="next-channel" class="control-btn" title="Próximo Canal">
+                        <span class="btn-label">CH+</span>
+                    </button>
+                </div>
+                
+                <!-- Controle de Volume -->
+                <div class="volume-control">
+                    <button id="volume-down" class="control-btn small" title="Diminuir Volume">
+                        <span class="btn-label">🔉</span>
+                    </button>
+                    <div class="volume-display">
+                        <div class="volume-bar">
+                            <div class="volume-fill" id="volume-fill"></div>
+                        </div>
+                        <span class="volume-text" id="volume-text">50%</span>
+                    </div>
+                    <button id="volume-up" class="control-btn small" title="Aumentar Volume">
+                        <span class="btn-label">🔊</span>
+                    </button>
+                </div>
+                
+                <!-- Indicadores -->
+                <div class="indicators">
+                    <div class="channel-indicator">
+                        <span class="indicator-label">Canal:</span>
+                        <span class="indicator-value" id="channel-display">01</span>
+                    </div>
+                    <div class="power-indicator">
+                        <div class="power-light" id="power-light"></div>
+                        <span class="indicator-label">POWER</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Pés da TV -->
+        <div class="tv-legs">
+            <div class="tv-leg left"></div>
+            <div class="tv-leg right"></div>
+        </div>
+    </div>
+    
+    <!-- Créditos -->
+    <footer class="credits">
+        Desenvolvido por Pedro Correia
+    </footer>
+    
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
