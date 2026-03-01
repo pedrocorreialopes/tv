@@ -5,6 +5,11 @@ const videos = [
     'LB2YU6gcHtA', // Vídeo 3
     'RhnqF2L9dZQ', // Vídeo 4
     'wYM3cN-tMxw'  // Vídeo 5
+    'Ise5sptqk0w'  // Vídeo 6
+    'msBNSDawTeQ'  // Vídeo 7
+    'EUY7ejR9Yzs'  // Vídeo 8
+    'i7j0bw5TonI'  // Vídeo 9
+    'ht75sAd_8YE'  // Vídeo 10
 ];
 
 let player;
